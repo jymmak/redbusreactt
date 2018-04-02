@@ -4,10 +4,10 @@ import Banks from './Banks'
 import Cash from './Cash'
 import Time from './Time'
 
-const TabContent = ({ paymentCode, content, selectedBank, setSelectedBank}) => (
+const TabContent = ({ content, selectedBank, setSelectedBank}) => (
   <div className="tab-pane show active">
     <div id="payment-info" className="d-flex flex-row">
-      <Pay code={pay} />
+      <Pay/>
       <Cash />
       <Time/>
     </div>
