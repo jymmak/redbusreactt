@@ -1,12 +1,13 @@
 import React from 'react'
 import Pay from './Pay'
 import Banks from './Banks'
+import Cash from './Cash'
 
 const TabContent = ({ paymentCode, content, selectedBank, setSelectedBank}) => (
   <div className="tab-pane show active">
     <div id="payment-info" className="d-flex flex-row">
       <Pay code={pay} />
-     
+      <Cash />
     </div>
     <p className="mt-3">Selecciona dónde quieres pagar:</p>
     <Banks banks={content.banks} setSelectedBank={setSelectedBank} selectedBank={selectedBank}/>
