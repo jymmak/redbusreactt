@@ -15,10 +15,10 @@ const Header = () => (
         <div className="col-4">
           <div class="dropdown">
             <button class="btn btn-danger dropdown-toggle language-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Idioma|Language</button>
+              Idioma</button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item" href="#">Español</a>
-              <a class="dropdown-item" href="#">English</a>
+              <a class="dropdown-item" href="#">Inglés</a>
 
             </div>
           </div>
