@@ -1,7 +1,9 @@
 import React from 'react'
 import Slider from 'react-slick'
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+
 
 const settings = {
   dots: false,
@@ -40,10 +42,10 @@ const settings = {
 };
 
 const styleSelected = {
-  border: '2px solid #E0AA00'
+  border: '2.3px solid red'
 }
 
-const Banks = ({banks, setSelectedBank, selectedBank}) => (
+const Banks = ({ banks, setSelectedBank, selectedBank }) => (
   <div>
     <Slider {...settings}>
       {banks.map(bank =>
@@ -54,13 +56,13 @@ const Banks = ({banks, setSelectedBank, selectedBank}) => (
           <img className="img-fluid"
             src={bank.image}
             alt={bank.name}
-            style={bank.name === selectedBank.name ? {...styleSelected, cursor: 'pointer'} : {cursor: 'pointer', border: '2px solid #FFD87F'}}
+            style={bank.name === selectedBank.name ? { ...styleSelected, cursor: 'pointer' } : { cursor: 'pointer', border: '2px solid #FFD87F' }}
           />
           {bank.text !== '' ? <p className='text-center'>{bank.text}</p> : null}
         </div>
       )}
     </Slider>
- </div>
+  </div>
 )
 
 export default Banks

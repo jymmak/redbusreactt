@@ -3,22 +3,17 @@ import './Css/header.css';
 import logo from './Assets/Images/logo.png';
 
 
-
-
-
 const Header = () => (
 
   <header>
     <div className="container">
       <div className="row">
-        <div className="col-md-7 offset-md-1">
+        <div className="col-md-7">
           <img className='logo' src={logo} alt='logo'></img>
         </div>
-     
       </div>
     </div>
   </header>
-
 )
 
 
