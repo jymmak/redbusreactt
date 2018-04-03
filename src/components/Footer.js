@@ -13,7 +13,7 @@ const Footer = () => (
       </div>
 
       <div className="col-md-3 ">
-        <p><span className="text-secondary">Ayuda: </span><a className="text-warning font-weight-bold" href="cont">contacto@redbus.pe</a></p>
+        <p><span className="text-secondary">Ayuda: </span><a className="text-warning font-weight-bold" href ='mailto:contacto@redbus.pe' target='_top'>contacto@redbus.pe</a></p>
       </div>
 
       <div className="col-md-3 ">
