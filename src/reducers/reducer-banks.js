@@ -8,7 +8,7 @@ export default function () {
         { name: 'scotiabank', text: '', image: 'assets/scotiabank.png', instructions: ['Selecciona la opción Pagos > Otras Instituciones > Otros > Busca por Empresa/Servicio: PAGOEFECTIVO > Selecciona: PAGOEFECTIVO SOLES', 'Ingresa tu código CIP: 9125682 y sigue los pasos.'], disclaimer: [] },
         { name: 'banbif', text: '', image: 'assets/banbif.png', instructions: ['Selecciona la opción Pago de servicios > Busca por Empresa y escribe PAGOEFECTIVO > Selecciona la empresa PAGOEFECTIVO', 'Ingresa tu código CIP: 9125682 y sigue los pasos.'], disclaimer: [] }
       ],
-      link: '#internet',
+      link: 'https://interbank.pe/redbus1',
       buttonText: 'Ir a banca por internet'
     },
     cash: {
