@@ -17,8 +17,8 @@ const Header = () => (
             <button class="btn btn-danger dropdown-toggle language-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Idioma</button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Español</a>
-              <a class="dropdown-item" href="#">Inglés</a>
+              <a class="dropdown-item" href="https://jymmak.github.io/redbusreactt/">Español</a>
+              <a class="dropdown-item" href="https://jymmak.github.io/redb/">Inglés</a>
 
             </div>
           </div>
